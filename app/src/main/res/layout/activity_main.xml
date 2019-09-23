@@ -11,12 +11,13 @@
         android:id="@+id/textview1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/textview2"
-        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintHorizontal_chainStyle="packed"
         android:text="View 1"
         android:textSize="35sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></TextView>
     <TextView
+        app:layout_constraintHorizontal_chainStyle="packed"
         android:id="@+id/textview2"
         app:layout_constraintLeft_toRightOf="@id/textview1"
         app:layout_constraintRight_toRightOf="parent"
